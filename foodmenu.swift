@@ -24,11 +24,11 @@ Menu:
     if let choice = readLine(), let menuChoice = Int(choice) {
     switch menuChoice {
     case 1:
-    print("Order: \(menu1.product) \nOrignal Price: \(menu1.orignalPrice)RS \nDiscount Price: \(discountPrice1)RS")
+    print("Order: \(menu1.product) \nOrignal Price: \(menu1.orignalPrice) RS \nDiscount Price: \(discountPrice1) RS")
     case 2:
-    print("Order: \(menu2.product) \nOrignal Price: \(menu2.orignalPrice)RS \nDiscount Price: \(discountPrice2)RS")
+    print("Order: \(menu2.product) \nOrignal Price: \(menu2.orignalPrice) RS \nDiscount Price: \(discountPrice2) RS")
     case 3:
-    print("Order: \(menu3.product) \nOrignal Price: \(menu3.orignalPrice)RS \nDiscount Price: \(discountPrice3)RS")
+    print("Order: \(menu3.product) \nOrignal Price: \(menu3.orignalPrice) RS \nDiscount Price: \(discountPrice3) RS")
     default:
     print("You ordered wrong menu tag number")
          }  
